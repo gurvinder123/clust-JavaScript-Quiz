@@ -1,0 +1,83 @@
+
+body {
+	/* Background pattern from Subtlepatterns.com */
+	background-image: url("./img/dark-grey-terrazzo.png");	
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;	
+}
+
+#container {		
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;	
+	display: flex;
+	justify-content: center;			
+	}
+
+#test {
+	margin-left: 10px;
+	background: silver;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+}
+
+input {
+	margin-bottom: 20px;
+	display: block;
+	font-size: 20px;
+}
+
+#textbox {
+	height: 25px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	padding-left: 5px;	
+}
+
+
+#button {
+	background: darkblue;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: .5s;
+	margin-top: 15px;
+}
+
+#button:hover {
+	background: white;
+	border: 1px solid green;
+	color: black;
+	cursor: pointer;
+
+}
+
+#after_submit {
+	visibility: hidden;
+	background: silver;
+	padding: 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	font-size: 30px;	
+}
+
+#image {
+	width: 300px;
+	height: 305px;
+	border-radius: 20px;	
+}
+
+.item {
+	display: inline;	
+}
+
+
+

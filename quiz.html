@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Mini Quiz</title>
+<link href ="./style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script src = "./main.js"></script>
+
+
+</head>
+
+
+<body>
+
+<div id="container">
+<form id = "test" name = "test">
+<h2>Check you knowledge of health!</h2>
+
+<h3 class = "questions">Where you can meet a tick?</h3>
+<input class = "item" type = "radio"  name = "quest1" value = "forest"> Forest<br>
+<input class = "item" type = "radio"  name = "quest1" value = "beach"> Beach<br>
+<input class = "item" type = "radio"  name = "quest1" value = "grass"> Grass<br>
+
+<h3 class = "questions">What does MRI abbreviation mean?</h3>
+<input id = "textbox" type = "text" name = "quest2" placeholder="use small letters">
+
+<h3 class = "questions">Who suffers from osteoporosis?</h3>
+
+<input class = "item" type = "radio"  name = "quest3" value = "young people"> Young peole<br>
+<input class = "item" type = "radio"  name = "quest3" value = "middle-age people"> Middle-age people<br>
+<input class = "item" type = "radio"  name = "quest3" value = "old people"> Old people<br>
+
+
+<input id = "button" type = "button" value = "SCORE" onclick = "count();">
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+
+<p id = "info"></p>
+<img id = "image">
+
+</div>
+</div>
+
+
+</body>
+</html>
+
+
